@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A9E9BA325F573A100A644EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9E9BA225F573A100A644EF /* AppDelegate.swift */; };
+		1A9E9BA525F573A100A644EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9E9BA425F573A100A644EF /* SceneDelegate.swift */; };
+		1A9E9BA725F573A100A644EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9E9BA625F573A100A644EF /* ViewController.swift */; };
+		1A9E9BAA25F573A100A644EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9E9BA825F573A100A644EF /* Main.storyboard */; };
+		1A9E9BAD25F573A100A644EF /* Rasperry_Remote_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A9E9BAB25F573A100A644EF /* Rasperry_Remote_app.xcdatamodeld */; };
+		1A9E9BAF25F573A300A644EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9E9BAE25F573A300A644EF /* Assets.xcassets */; };
+		1A9E9BB225F573A300A644EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9E9BB025F573A300A644EF /* LaunchScreen.storyboard */; };
+		1A9E9BBD25F573A400A644EF /* Rasperry_Remote_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9E9BBC25F573A400A644EF /* Rasperry_Remote_appTests.swift */; };
+		1A9E9BC825F573A400A644EF /* Rasperry_Remote_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9E9BC725F573A400A644EF /* Rasperry_Remote_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A9E9BB925F573A400A644EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A9E9B9725F573A100A644EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9E9B9E25F573A100A644EF;
+			remoteInfo = Rasperry_Remote_app;
+		};
+		1A9E9BC425F573A400A644EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A9E9B9725F573A100A644EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9E9B9E25F573A100A644EF;
+			remoteInfo = Rasperry_Remote_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A9E9B9F25F573A100A644EF /* Rasperry_Remote_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rasperry_Remote_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9E9BA225F573A100A644EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A9E9BA425F573A100A644EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A9E9BA625F573A100A644EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A9E9BA925F573A100A644EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A9E9BAC25F573A100A644EF /* Rasperry_Remote_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rasperry_Remote_app.xcdatamodel; sourceTree = "<group>"; };
+		1A9E9BAE25F573A300A644EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A9E9BB125F573A300A644EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A9E9BB325F573A300A644EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9E9BB825F573A400A644EF /* Rasperry_Remote_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rasperry_Remote_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9E9BBC25F573A400A644EF /* Rasperry_Remote_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rasperry_Remote_appTests.swift; sourceTree = "<group>"; };
+		1A9E9BBE25F573A400A644EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9E9BC325F573A400A644EF /* Rasperry_Remote_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rasperry_Remote_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9E9BC725F573A400A644EF /* Rasperry_Remote_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rasperry_Remote_appUITests.swift; sourceTree = "<group>"; };
+		1A9E9BC925F573A400A644EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A9E9B9C25F573A100A644EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9E9BB525F573A400A644EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9E9BC025F573A400A644EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9E9B9625F573A100A644EF = {
+			isa = PBXGroup;
+			children = (
+				1A9E9BA125F573A100A644EF /* Rasperry_Remote_app */,
+				1A9E9BBB25F573A400A644EF /* Rasperry_Remote_appTests */,
+				1A9E9BC625F573A400A644EF /* Rasperry_Remote_appUITests */,
+				1A9E9BA025F573A100A644EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A9E9BA025F573A100A644EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A9E9B9F25F573A100A644EF /* Rasperry_Remote_app.app */,
+				1A9E9BB825F573A400A644EF /* Rasperry_Remote_appTests.xctest */,
+				1A9E9BC325F573A400A644EF /* Rasperry_Remote_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9E9BA125F573A100A644EF /* Rasperry_Remote_app */ = {
+			isa = PBXGroup;
+			children = (
+				1A9E9BA225F573A100A644EF /* AppDelegate.swift */,
+				1A9E9BA425F573A100A644EF /* SceneDelegate.swift */,
+				1A9E9BA625F573A100A644EF /* ViewController.swift */,
+				1A9E9BA825F573A100A644EF /* Main.storyboard */,
+				1A9E9BAE25F573A300A644EF /* Assets.xcassets */,
+				1A9E9BB025F573A300A644EF /* LaunchScreen.storyboard */,
+				1A9E9BB325F573A300A644EF /* Info.plist */,
+				1A9E9BAB25F573A100A644EF /* Rasperry_Remote_app.xcdatamodeld */,
+			);
+			path = Rasperry_Remote_app;
+			sourceTree = "<group>";
+		};
+		1A9E9BBB25F573A400A644EF /* Rasperry_Remote_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A9E9BBC25F573A400A644EF /* Rasperry_Remote_appTests.swift */,
+				1A9E9BBE25F573A400A644EF /* Info.plist */,
+			);
+			path = Rasperry_Remote_appTests;
+			sourceTree = "<group>";
+		};
+		1A9E9BC625F573A400A644EF /* Rasperry_Remote_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A9E9BC725F573A400A644EF /* Rasperry_Remote_appUITests.swift */,
+				1A9E9BC925F573A400A644EF /* Info.plist */,
+			);
+			path = Rasperry_Remote_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A9E9B9E25F573A100A644EF /* Rasperry_Remote_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9E9BCC25F573A400A644EF /* Build configuration list for PBXNativeTarget "Rasperry_Remote_app" */;
+			buildPhases = (
+				1A9E9B9B25F573A100A644EF /* Sources */,
+				1A9E9B9C25F573A100A644EF /* Frameworks */,
+				1A9E9B9D25F573A100A644EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rasperry_Remote_app;
+			productName = Rasperry_Remote_app;
+			productReference = 1A9E9B9F25F573A100A644EF /* Rasperry_Remote_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A9E9BB725F573A400A644EF /* Rasperry_Remote_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9E9BCF25F573A400A644EF /* Build configuration list for PBXNativeTarget "Rasperry_Remote_appTests" */;
+			buildPhases = (
+				1A9E9BB425F573A400A644EF /* Sources */,
+				1A9E9BB525F573A400A644EF /* Frameworks */,
+				1A9E9BB625F573A400A644EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A9E9BBA25F573A400A644EF /* PBXTargetDependency */,
+			);
+			name = Rasperry_Remote_appTests;
+			productName = Rasperry_Remote_appTests;
+			productReference = 1A9E9BB825F573A400A644EF /* Rasperry_Remote_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A9E9BC225F573A400A644EF /* Rasperry_Remote_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9E9BD225F573A400A644EF /* Build configuration list for PBXNativeTarget "Rasperry_Remote_appUITests" */;
+			buildPhases = (
+				1A9E9BBF25F573A400A644EF /* Sources */,
+				1A9E9BC025F573A400A644EF /* Frameworks */,
+				1A9E9BC125F573A400A644EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A9E9BC525F573A400A644EF /* PBXTargetDependency */,
+			);
+			name = Rasperry_Remote_appUITests;
+			productName = Rasperry_Remote_appUITests;
+			productReference = 1A9E9BC325F573A400A644EF /* Rasperry_Remote_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A9E9B9725F573A100A644EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = LevinJungstier;
+				TargetAttributes = {
+					1A9E9B9E25F573A100A644EF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1A9E9BB725F573A400A644EF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 1A9E9B9E25F573A100A644EF;
+					};
+					1A9E9BC225F573A400A644EF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 1A9E9B9E25F573A100A644EF;
+					};
+				};
+			};
+			buildConfigurationList = 1A9E9B9A25F573A100A644EF /* Build configuration list for PBXProject "Rasperry_Remote_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A9E9B9625F573A100A644EF;
+			productRefGroup = 1A9E9BA025F573A100A644EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A9E9B9E25F573A100A644EF /* Rasperry_Remote_app */,
+				1A9E9BB725F573A400A644EF /* Rasperry_Remote_appTests */,
+				1A9E9BC225F573A400A644EF /* Rasperry_Remote_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A9E9B9D25F573A100A644EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9E9BB225F573A300A644EF /* LaunchScreen.storyboard in Resources */,
+				1A9E9BAF25F573A300A644EF /* Assets.xcassets in Resources */,
+				1A9E9BAA25F573A100A644EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9E9BB625F573A400A644EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9E9BC125F573A400A644EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A9E9B9B25F573A100A644EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9E9BA725F573A100A644EF /* ViewController.swift in Sources */,
+				1A9E9BA325F573A100A644EF /* AppDelegate.swift in Sources */,
+				1A9E9BAD25F573A100A644EF /* Rasperry_Remote_app.xcdatamodeld in Sources */,
+				1A9E9BA525F573A100A644EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9E9BB425F573A400A644EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9E9BBD25F573A400A644EF /* Rasperry_Remote_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9E9BBF25F573A400A644EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9E9BC825F573A400A644EF /* Rasperry_Remote_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A9E9BBA25F573A400A644EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A9E9B9E25F573A100A644EF /* Rasperry_Remote_app */;
+			targetProxy = 1A9E9BB925F573A400A644EF /* PBXContainerItemProxy */;
+		};
+		1A9E9BC525F573A400A644EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A9E9B9E25F573A100A644EF /* Rasperry_Remote_app */;
+			targetProxy = 1A9E9BC425F573A400A644EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A9E9BA825F573A100A644EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9E9BA925F573A100A644EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A9E9BB025F573A300A644EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9E9BB125F573A300A644EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A9E9BCA25F573A400A644EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A9E9BCB25F573A400A644EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A9E9BCD25F573A400A644EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R785F6B4QR;
+				INFOPLIST_FILE = Rasperry_Remote_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jungstier.Rasperry-Remote-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A9E9BCE25F573A400A644EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R785F6B4QR;
+				INFOPLIST_FILE = Rasperry_Remote_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jungstier.Rasperry-Remote-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A9E9BD025F573A400A644EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R785F6B4QR;
+				INFOPLIST_FILE = Rasperry_Remote_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jungstier.Rasperry-Remote-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rasperry_Remote_app.app/Rasperry_Remote_app";
+			};
+			name = Debug;
+		};
+		1A9E9BD125F573A400A644EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R785F6B4QR;
+				INFOPLIST_FILE = Rasperry_Remote_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jungstier.Rasperry-Remote-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rasperry_Remote_app.app/Rasperry_Remote_app";
+			};
+			name = Release;
+		};
+		1A9E9BD325F573A400A644EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R785F6B4QR;
+				INFOPLIST_FILE = Rasperry_Remote_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jungstier.Rasperry-Remote-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rasperry_Remote_app;
+			};
+			name = Debug;
+		};
+		1A9E9BD425F573A400A644EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R785F6B4QR;
+				INFOPLIST_FILE = Rasperry_Remote_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jungstier.Rasperry-Remote-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rasperry_Remote_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9E9B9A25F573A100A644EF /* Build configuration list for PBXProject "Rasperry_Remote_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9E9BCA25F573A400A644EF /* Debug */,
+				1A9E9BCB25F573A400A644EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9E9BCC25F573A400A644EF /* Build configuration list for PBXNativeTarget "Rasperry_Remote_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9E9BCD25F573A400A644EF /* Debug */,
+				1A9E9BCE25F573A400A644EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9E9BCF25F573A400A644EF /* Build configuration list for PBXNativeTarget "Rasperry_Remote_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9E9BD025F573A400A644EF /* Debug */,
+				1A9E9BD125F573A400A644EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9E9BD225F573A400A644EF /* Build configuration list for PBXNativeTarget "Rasperry_Remote_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9E9BD325F573A400A644EF /* Debug */,
+				1A9E9BD425F573A400A644EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A9E9BAB25F573A100A644EF /* Rasperry_Remote_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A9E9BAC25F573A100A644EF /* Rasperry_Remote_app.xcdatamodel */,
+			);
+			currentVersion = 1A9E9BAC25F573A100A644EF /* Rasperry_Remote_app.xcdatamodel */;
+			path = Rasperry_Remote_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A9E9B9725F573A100A644EF /* Project object */;
+}
